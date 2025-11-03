@@ -1,0 +1,7 @@
+flask>=3.0.0
+gunicorn>=21.2.0
+pillow>=10.0.0
+numpy>=1.26.0
+keras>=3.0.0
+tensorflow>=2.15.0; platform_system != "Darwin" or platform_machine != "arm64"
+tensorflow-macos>=2.15.0; platform_system == "Darwin" and platform_machine == "arm64"

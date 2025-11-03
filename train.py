@@ -14,6 +14,6 @@ def train_model(train_generator, val_generator):
                   validation_data=val_generator,
                   epochs=10)
     # Save the trained model in .keras
-    cnn_model.save('cnn_cats_vs_dogs.keras')
+    cnn_model.save('app/cnn_cats_vs_dogs.keras')
     print("Model trained and saved as 'cnn_cats_vs_dogs.keras'")
     
