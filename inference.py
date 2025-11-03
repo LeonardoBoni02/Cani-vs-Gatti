@@ -1,6 +1,6 @@
 CLASS_NAMES = ["Cat", "Dog"]
 
-def infer_image(image_path, model_path='cnn_cats_vs_dogs.keras', img_size=(224, 224)):
+def infer_image(image_path, model_path='./app/cnn_cats_vs_dogs.keras', img_size=(224, 224)):
     import keras, numpy as np
     from PIL import Image
     import matplotlib.pyplot as plt
